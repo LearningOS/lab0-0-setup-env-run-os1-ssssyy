@@ -34,6 +34,7 @@ pub fn rust_main() -> ! {
         fn boot_stack();
         fn boot_stack_top();
     }
+    
     clear_bss();
     logging::init();
     println!("Hello, world!");
